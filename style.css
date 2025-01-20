@@ -23,7 +23,7 @@ a:hover {
 /* Header */
 header {
     background: linear-gradient(90deg, #0078D7, #0052A3);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 1rem 0;
     text-align: center;
 }
