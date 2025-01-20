@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    emailjs.init("service_3za8fxa");
+</script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raf-77</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Meine Portfolio Website</h1>
+            <nav>
+                <a href="#about">Über mich</a>
+                <a href="#projects">Projekte</a>
+                <a href="#contact">Kontakt</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about" class="section">
+            <div class="container">
+                <h2>Über mich</h2>
+                <p> Informatik - Game Engineering Student. Aktuell lerne ich: C++ , Unreal Engine, Blender.</p>
+            </div>
+        </section>
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>Projekte</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <h3>Projekt 1</h3>
+                        <p>Beschreibung des Projekts, das zeigt, was ich geschaffen habe.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="section">
+            <div class="container">
+                <h2>Kontakt</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">E-Mail:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Nachricht:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    
+                    <button type="submit">Nachricht senden</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 raf-77 |</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
